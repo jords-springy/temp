@@ -1,8 +1,32 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: moccasin;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(98, 140, 160);
 }
 
-.temperature{
-    margin-top: 200px;
+.container{
+    max-width: 500px;
+    margin: auto;
+   
+    justify-content: center;
+    align-items: center; 
+}
+
+.heading{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+input{
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: inset;
+}
+
+button{
+    border-radius:8px;
 }
